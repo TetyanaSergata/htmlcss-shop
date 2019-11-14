@@ -6,16 +6,17 @@
 
 body{
   padding: 10px;
-  background-color: red;
-}
-
-.top-row{
-  margin-bottom: 30px;
+  /* background-color: red; */
 }
 
 .container {
   text-align: center;
 }
+
+.top-row{
+  margin-bottom: 10px;
+}
+
 
 .box{
   position: relative;
@@ -29,9 +30,7 @@ body{
   background-color: green;
   /*z-index: 1;*/
 }
-/*.box .sale {
-  background-color: red;
-}*/
+
 .heart{
   position: absolute;
   bottom: 0;
@@ -40,7 +39,11 @@ body{
   padding: 7px;
   text-align: center;
   display: none;
+  font-size: 2em;
 }
 .box:hover .heart{
   display: block;
+}
+.box:nth-child(2) .sale{
+  background-color: red;
 }

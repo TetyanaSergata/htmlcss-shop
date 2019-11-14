@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  padding: 10px;
+  background-color: red;
+}
+
+.top{
+  margin-bottom: 30px;
+}
+
+.container {
+}
+
+.box{
+  display: inline-block;
+}

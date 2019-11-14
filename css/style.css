@@ -9,13 +9,29 @@ body{
   background-color: red;
 }
 
-.top{
+.top-row{
   margin-bottom: 30px;
 }
 
 .container {
+  text-align: center;
 }
 
 .box{
+  position: relative;
   display: inline-block;
+}
+.box .sale{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+  /*z-index: 1;*/
+}
+/*.box .sale {
+  background-color: red;
+}*/
+
+
+
 }

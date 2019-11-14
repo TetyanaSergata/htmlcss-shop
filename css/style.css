@@ -20,6 +20,7 @@ body{
 .box{
   position: relative;
   display: inline-block;
+  cursor: pointer;
 }
 .box .sale{
   position: absolute;
@@ -31,7 +32,15 @@ body{
 /*.box .sale {
   background-color: red;
 }*/
-
-
-
+.heart{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  color: red;
+  padding: 7px;
+  text-align: center;
+  display: none;
+}
+.box:hover .heart{
+  display: block;
 }
